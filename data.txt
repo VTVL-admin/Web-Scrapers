@@ -1,2 +1,1 @@
-# Text file used fo Sifted Women Investor data to temporarily store data from website
-# in order to handle repeated records. ERASE THIS TEXT WHEN RUNNING THE CODE
+# Text file used for Sifted Women Investor data to temporarily store data from the website in order to handle repeated records. ERASE THIS TEXT WHEN RUNNING THE CODE
