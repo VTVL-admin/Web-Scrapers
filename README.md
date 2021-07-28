@@ -1,2 +1,2 @@
-# Airtable-Scraper
-A python script used to scrape information from an Airtable
+# Web-Scrapers
+Web scrapers were used to get investor data from a variety of websites, I primarily used Python to scrape the data. The packages I used were BeautifulSoup, Pyautogui, Selenium and Xlwings. BeautifulSoup was used to extract data from the html code, Pyautogui was used to control the graphical user interface, Selenium was used to handle the JavaScript for certain sites and Xlwings was used to parse the data to MS Excel. 
