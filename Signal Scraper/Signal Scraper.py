@@ -30,7 +30,7 @@ class Counter:
 # open selenium browser, fullscreen
 options = webdriver.ChromeOptions()
 options.add_argument("--start-maximized")
-driver = webdriver.Chrome("C:\\Users\\rosha\\ChromeDriver\\chromedriver.exe", options=options)
+driver = webdriver.Chrome("C:\\Users\\{PATH_TO_DIRECTORY}\\chromedriver.exe", options=options)
 driver.get("https://signal.nfx.com/login")
 
 counter = Counter()
