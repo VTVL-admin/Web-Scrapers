@@ -13,7 +13,7 @@ Visible Connect Investor Data Scraped from Website
 """
 
 # open excel spreadsheet
-wb = xlw.Book(r"C:\Users\rosha\OneDrive\Documents\Visible Connect Data.xlsx")
+wb = xlw.Book(r"C:\Users\{PATH_TO_DIRECTORY}\Visible Connect Data.xlsx")
 sheet = wb.sheets["Sheet1"]
 
 
@@ -21,7 +21,7 @@ sheet = wb.sheets["Sheet1"]
 options = Options()
 options.headless = True
 options.add_argument("--headless")
-driver = webdriver.Chrome("C:\\Users\\rosha\\ChromeDriver\\chromedriver.exe", options=options)
+driver = webdriver.Chrome("C:\\Users\\{PATH_TO_DIRECTORY}\\chromedriver.exe", options=options)
 driver.get("https://connect.visible.vc/investors?stages[]=Alt.%20VC&"
            "stages[]=Accelerator&stages[]=Pre-Seed&stages[]=Seed&stages[]=Series%20A&stages[]=Angel&stages[]=Growth")
 time.sleep(4)
