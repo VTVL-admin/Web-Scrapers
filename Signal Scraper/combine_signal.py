@@ -5,8 +5,8 @@ Get data from Series A file and Seed file and combine into one sheet
 '''
 
 # open excel spreadsheet
-wb1 = xlw.Book(r"C:\Users\rosha\OneDrive\Documents\Signal Investor Data.xlsx")
-wb2 = xlw.Book(r"C:\Users\rosha\OneDrive\Documents\Signal Investor Series A Data.xlsx")
+wb1 = xlw.Book(r"C:\Users\{PATH_TO_DIRECTORY}\Signal Investor Data.xlsx")
+wb2 = xlw.Book(r"C:\Users\{PATH_TO_DIRECTORY}\Signal Investor Series A Data.xlsx")
 
 # get columns from excel spreadsheet
 normal = wb1.sheets[0].range('A2:A3593').value
